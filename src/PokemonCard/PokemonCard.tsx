@@ -15,8 +15,6 @@ const Card = styled.div`
     &:hover {
         background-color: #e4e4e4;
     }
-;
-
 `;
 
 const PokemonName = styled.h3`

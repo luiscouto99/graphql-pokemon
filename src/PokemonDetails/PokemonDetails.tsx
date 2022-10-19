@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useParams } from "react-router-dom";
 import { useQuery, gql } from '@apollo/client';
 import { Link } from "react-router-dom";
@@ -10,6 +10,8 @@ const Main = styled.main`
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #535353;
+    color: white;
 `;
 
 type PokemonColorProps = {
@@ -45,7 +47,7 @@ const InfoTitle = styled.h2`
 `;
 
 const InfoParagraph = styled.p`
-    font-weight: bold;
+    font-weight: 500;
 `;
 
 const InfoSpan = styled.span`
