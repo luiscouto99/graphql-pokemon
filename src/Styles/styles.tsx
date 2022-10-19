@@ -6,14 +6,14 @@ export const FilterContainer = styled.div`
 
 export const FilterTitle = styled.h3`
     font-weight: 500;
-    color: white;
+    color: #202020;
     margin-bottom: 0;
 `;
 
 export const Checkboxes = styled.div`
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #191919;
 `;
 
 export const Input = styled.input`

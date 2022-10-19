@@ -3,7 +3,7 @@ import styled from "styled-components";
 import {Link} from "react-router-dom"
 
 const Card = styled.div`
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -13,14 +13,14 @@ const Card = styled.div`
     max-height: 148px;
 
     &:hover {
-        background-color: #4b4b4b;
+        background-color: #e4e4e4;
     }
 ;
 
 `;
 
 const PokemonName = styled.h3`
-    color: white;
+    color: #000000;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;

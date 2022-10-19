@@ -21,7 +21,7 @@ const PokemonGrid = styled.section`
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    background-color: #535353;
+    background-color: #ffffff;
     margin-left: 330px;
     padding-top: 40px;
 `;
@@ -29,7 +29,7 @@ const Filters = styled.section`
     position: fixed;
     min-width: 330px;
     height:100vh;
-    background-color: #ec6a6a;
+    background-color: #e4e4e4;
     display: flex;
     flex-direction: column;
     padding-top: 40px;
